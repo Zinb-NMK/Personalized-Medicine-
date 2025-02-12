@@ -1,31 +1,36 @@
 # 🏥 Healthcare Medication Predictor
 A full-stack Healthcare Application that predicts suitable medications based on patient health data. Built with FastAPI, React, MongoDB, and Tailwind CSS, this system helps healthcare providers manage patient data and receive medication recommendations.
 
-🚀 Features
-📝 Patient Data Management: Save and retrieve patient records.
-💊 Medication Prediction: Provides medication suggestions using a machine learning model.
-📊 Health Metrics Visualization: Display blood pressure and blood sugar trends.
-🥗 Diet Recommendations: Personalized diet advice for patients.
+## Project Status
+🚧 **Under Development** 🚧  
+- Current focus: Data collection, model training, and API integration.  
+- Planned features: User authentication, real-time health metrics monitoring, and enhanced recommendation algorithms.
 
-🛠 Tech Stack
+Feel free to explore and contribute!
 
-Backend
-FastAPI – High-performance web framework
-MongoDB – NoSQL database for data storage
-Python – Core language for ML and backend
-pandas, scikit-learn, NumPy – Data processing and model building
+# 🚀 Features
+- 📝 Patient Data Management: Save and retrieve patient records.
+- 💊 Medication Prediction: Provides medication suggestions using a machine learning model.
+- 📊 Health Metrics Visualization: Display blood pressure and blood sugar trends.
+- 🥗 Diet Recommendations: Personalized diet advice for patients.
 
-Frontend
-React – Modern UI framework
-TypeScript – For type-safe development
-Tailwind CSS – Utility-first CSS framework
+# 🛠 Tech Stack
+Backend  
+- FastAPI – High-performance web framework  
+- MongoDB – NoSQL database for data storage  
+- Python – Core language for ML and backend  
+- pandas, scikit-learn, NumPy – Data processing and model building
 
-📦 Installation and Setup
-Prerequisites
-Python 3.10+
-Node.js and npm
-MongoDB (locally or cloud-hosted)
+Frontend  
+- React – Modern UI framework  
+- TypeScript – For type-safe development  
+- Tailwind CSS – Utility-first CSS framework
 
+# 📦 Installation and Setup
+Prerequisites  
+- Python 3.10+  
+- Node.js and npm  
+- MongoDB (locally or cloud-hosted)
 Backend Setup:-
 
 ### 1. Clone the repository:  
@@ -44,7 +49,7 @@ pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload  
 ```
 
-## API Endpoints  
+# API Endpoints  
 
 ### 1. `POST /predict-medication`  
 **Description:** Predicts medication based on patient data.  
@@ -99,14 +104,20 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ### python-dotenv==1.0.0
 ### pydantic==2.3.0
 
-💡 Future Enhancements
-🔒 Authentication and Role-based Access Control
-📱 Mobile-friendly Design
-🤖 Advanced Machine Learning Models for more accurate predictions
+### 💡 Future Enhancements
+### 🔒 Authentication and Role-based Access Control
+### 📱 Mobile-friendly Design
+### 🤖 Advanced Machine Learning Models for more accurate predictions
 
-📜 License
-This project is licensed under the MIT License.
+## 📜 License
+  This project is licensed under the MIT License.
 
-👨‍💻 Author
-Nagaram ManojKumar
+## 👨‍💻 Author  
+**Nagaram ManojKumar**  
 Aspiring AI/ML Developer | B.Tech (CSE, AI & ML) at Parul University
+
+## 📞 Contact  
+- 📧 Email: [nagarammanojkumar333@gmail.com](mailto:your-email@example.com)  
+- 🌐 LinkedIn: [linkedin.com/in/manojkumar-nagaram-1a2236321](https://linkedin.com/in/your-profile)  
+Feel free to reach out for collaborations, queries, or any discussions about AI/ML!
+
